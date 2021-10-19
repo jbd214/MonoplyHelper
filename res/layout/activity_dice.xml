@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/totalVal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myColor"
+    android:gravity="center_horizontal" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_marginTop="18dp"
+        android:src="@android:drawable/btn_star" />
+ 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="72dp"
+        android:src="@android:drawable/ic_lock_lock" />
+
+
+    <TextView
+        android:id="@+id/totalLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/total"/> 
+        
+	<EditText
+        android:id="@+id/totalValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/totalLabel"
+        android:layout_alignBottom="@id/totalLabel"
+        android:focusable="false" />
+    
+
+    <TextView
+        android:id="@+id/currentPlayerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalValue"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="Current Player" />
+    
+    <TextView
+        android:id="@+id/currentPlayerField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/currentPlayerLabel"
+        android:layout_below="@id/totalValue"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="16dp"
+        android:text="current player" />
+
+        <TextView
+        android:id="@+id/currentPosLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/currentPlayerField"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Current Positon" />
+    
+        <TextView
+        android:id="@+id/currentPosition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/currentPosLabel"
+        android:layout_marginBottom="16dp"
+        android:text="currentPositionField" />
+    
+        <TextView
+        android:id="@+id/newPositionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/currentPosition"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="New Position" />
+        
+    <!--     
+    <TextView
+        android:id="@+id/newPosition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newPositionLabel"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="new Position" />
+     -->
+     <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentPosition"
+        android:layout_toRightOf="@id/newPositionLabel"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@android:drawable/btn_star" />
+ 
+    <Button
+        android:id="@+id/rollDiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClick"
+        android:text="Roll Dice"/>
+    
+    
+    <Button
+        android:id="@+id/nextPlayerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/rollDiceButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:onClick="onClick"
+        android:text="Next Player" />
+    
+        
+</RelativeLayout>

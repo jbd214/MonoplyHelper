@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:id="@+id/player_row" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/FirstText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First"
+        android:typeface="monospace"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="6"/>
+    
+    <TextView
+        android:id="@+id/SecondText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/FirstText"
+        android:text="Second"
+        android:typeface="monospace" />
+    
+        <ImageButton
+            android:id="@+id/ButtonEdit"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/SecondText"
+            android:maxWidth="@dimen/listPlayersDimension"
+            android:src="@android:drawable/ic_menu_edit" />
+        
+    <ImageButton
+        android:id="@+id/ButtonMoveToFirst"
+        android:layout_width="50dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ButtonEdit"
+        android:maxWidth="@dimen/listPlayersDimension"
+        android:src="@android:drawable/ic_menu_upload" />
+    
+    <ImageButton
+        android:id="@+id/deletePlayerButton"
+        android:layout_width="50dp"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ButtonMoveToFirst"
+        android:src="@android:drawable/ic_delete" />
+
+   
+    
+</RelativeLayout>

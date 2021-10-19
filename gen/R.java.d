@@ -1,0 +1,27 @@
+C:\Users\IBM_ADMIN\workspace\Dice\gen\com\jd\dice\R.java \
+ : C:\Users\IBM_ADMIN\workspace\Dice\res\drawable-hdpi\ic_action_search.png \
+C:\Users\IBM_ADMIN\workspace\Dice\res\drawable-hdpi\ic_launcher.png \
+C:\Users\IBM_ADMIN\workspace\Dice\res\drawable-ldpi\ic_launcher.png \
+C:\Users\IBM_ADMIN\workspace\Dice\res\drawable-mdpi\ic_action_search.png \
+C:\Users\IBM_ADMIN\workspace\Dice\res\drawable-mdpi\ic_launcher.png \
+C:\Users\IBM_ADMIN\workspace\Dice\res\drawable-xhdpi\ic_action_search.png \
+C:\Users\IBM_ADMIN\workspace\Dice\res\drawable-xhdpi\ic_launcher.png \
+C:\Users\IBM_ADMIN\workspace\Dice\res\layout\activity_dice.xml \
+C:\Users\IBM_ADMIN\workspace\Dice\res\layout\player_edit.xml \
+C:\Users\IBM_ADMIN\workspace\Dice\res\layout\player_list.xml \
+C:\Users\IBM_ADMIN\workspace\Dice\res\layout\player_row.xml \
+C:\Users\IBM_ADMIN\workspace\Dice\res\menu\activity_dice.xml \
+C:\Users\IBM_ADMIN\workspace\Dice\res\menu\activity_list_players.xml \
+C:\Users\IBM_ADMIN\workspace\Dice\res\values\dimens.xml \
+C:\Users\IBM_ADMIN\workspace\Dice\res\values\strings.xml \
+C:\Users\IBM_ADMIN\workspace\Dice\res\values\styles.xml \
+C:\Users\IBM_ADMIN\workspace\Dice\res\values-v11\styles.xml \
+C:\Users\IBM_ADMIN\workspace\Dice\res\values-v14\styles.xml \
+C:\Users\IBM_ADMIN\workspace\Dice\bin\res\drawable-hdpi\ic_action_search.png \
+C:\Users\IBM_ADMIN\workspace\Dice\bin\res\drawable-hdpi\ic_launcher.png \
+C:\Users\IBM_ADMIN\workspace\Dice\bin\res\drawable-ldpi\ic_launcher.png \
+C:\Users\IBM_ADMIN\workspace\Dice\bin\res\drawable-mdpi\ic_action_search.png \
+C:\Users\IBM_ADMIN\workspace\Dice\bin\res\drawable-mdpi\ic_launcher.png \
+C:\Users\IBM_ADMIN\workspace\Dice\bin\res\drawable-xhdpi\ic_action_search.png \
+C:\Users\IBM_ADMIN\workspace\Dice\bin\res\drawable-xhdpi\ic_launcher.png \
+C:\Users\IBM_ADMIN\workspace\Dice\bin\AndroidManifest.xml \
